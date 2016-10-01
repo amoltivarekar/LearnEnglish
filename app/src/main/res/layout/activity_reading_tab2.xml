@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amolt.learnenglish.ReadingTab1Activity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Needed A Sign."
+                android:typeface="serif"
+                android:textSize="40dp"
+                android:textColor="@color/colorWhite"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/girl"
+                android:layout_weight="0.42"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          Nine years ago almost to the day, I lost my mom very suddenly when I was only 17 years old. The last few years have been very emotionally and physically difficult for me. When my mom passed our relationship was just starting to get good after a few years of not being so great or healthy. As of recently, I came to live with my aunt and uncle, my mom’s sister. Also my biggest supporter."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          Last year she introduced me to The Secret and I didn’t really grasp it. This year for Christmas she got me The Power and something about it this time was different."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          All these years I have been needing a sign from my mom. So after reading this I decided to start with that. I focused all my energy on her. All positive energy of love."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          One of the most vivid memories I have is being in a car in the same very small town I now live in at a red light beside the car wash. And playing over and over, a Dixie Chick song and just crying the day before her funeral. I try to avoid the song now because, well, for one, it is not even my taste in music and for two, the emotion it brings."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="          Just the other day I was sitting at a red light looking down at my nails when out of no where this song started playing on a radio station. It was amazing that the station would even be playing an almost ten year old song, but also this genre of music. Before even looking up, I knew exactly where I was. I was at the red light beside the car wash.
+Not only did this give me the closure I’ve desperately been searching for, it gave me the power of belief and trust in the law of attraction. I sat and sang that song so loud with not a care in the world of who was watching with tears, but also a big smile."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

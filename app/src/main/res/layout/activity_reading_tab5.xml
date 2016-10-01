@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amolt.learnenglish.ReadingTab1Activity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Keep Trying, You’ll Get It Right."
+                android:typeface="serif"
+                android:textSize="40dp"
+                android:textColor="@color/colorWhite"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/intro"
+                android:layout_weight="0.42"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          In the year 2009, I found my life free falling to an endless bottom out of no where. Like I had opened my eyes and thought, “How did it get here?” The things that kept me from sinking further under were our 3 beautiful children, my youngest was 18 months. My husband and I were in so much debt. Six years prior we bought a multi-family home that I hated. I hated being a landlord, hated sharing my living space with people, hated the location, hated the layout. I knew it was what my husband wanted and I wanted him happy so I went along with his decision. It was 80 plus years old and neglected. We over paid and it cost us so much more in taxes, upkeep and repairs than it would ever be worth in resale. On top of that, we ended up with tenants that wouldn’t pay their rent.
+\n          As a result of that bad investment, we ended up in so much debt. I resented my husband for buying the house, I resented myself for allowing him to buy it and I resented the debt we were in. Adding insult to injury, a business deal went bad and $25,000 was stolen from our savings. We had to sell our house for so much less than we bought it, the loss was tearfully painful. We couldn’t afford to rent.
+\n          In order to save money for a single family house, we decided to move in with my mother and live in her unfinished, cinder block, cold cemented floor, basement with no convenient bathroom or kitchen. Despite my mother’s pleads, I made a personal vow never to encroach on her life or space so I cooked on hot plates and a microwave in the basement. I put our dirty dishes in a plastic bin and after my mother and siblings went to bed, I carried the dishes up the steps every night to her kitchen to wash them. We climbed 3 flights of stairs to bathe the children, shower and do laundry. We lived and slept in that one living space. I pulled away from friends, I just couldn’t let them see how we were living. However, I managed to keep us living neatly and cleanly and most importantly, happily.
+\n          Just prior to moving in to my mother’s home and reaching my self proclaimed “rock bottom”, my sister-in-law gave me a gift set of ‘The Secret’ book and DVD. As I watched the ball drop on TV, News Years 2010, I stared at my beautiful, sleeping children, passed out and lumped in their warm beds in that cold basement, where I read the book for the first time. I was alive and vibrant, I felt the words coursing through my body and my soul. For weeks I felt charged and confident I could change our terrible luck, as my husband worked himself to the bone. Every day I read the words and watched the DVD over and over. I knew what I had to do but I just couldn’t get it right. I never gave up but I knew there was still something wrong with the way I was thinking. We lived in those conditions for 3 years.
+\n          One day, I just happened to accompany a friend to an open house of an $800,000 home that was for sale. I fell in love with that house and who wouldn’t for $800,000. I imagined my family in that house every day and night.
+\n          The time came, our debts were paid and we were able to finally buy a house of our own. Cool part of the story, the house we bought looked exactly like a much smaller and simpler version of the $800,000 home I walked into a year ago! That’s when I knew I was close to getting the knack of the law of attraction. I kept reading books attached to ‘The Secret’. I read, ‘The Think and Grow Rich’, ‘The Magic’, ‘The Moses Code,’ ‘The Science of Getting Rich’, ‘The Master Keys’ and the list goes on. Something in ‘The Moses Code’ hit a cord. But I still didn’t know what I was missing.
+\n          However, I learned something from my son who was a year and a half old when we moved into my mother’s basement. That place he called home for 3 years, the only life he knew, made him feel secure and safe. He loved being in that one room with his family so close and he always wanted to go back and live there again. From him, I learned, happiness is blind, it survives in a feeling you create within yourself. In those years, there was a tiff with a little thing called cancer, a miscarriage, other ups and downs but then another gorgeous son was born healthy after I was told he wouldn’t be. I believed he would.
+\n          I had a longing to be just a little more, an insatiable desire to become something more. I always wanted to write comic books, since I first read a ‘Wonder Woman’ comic when I was 10. As I watched green mutant ninjas fighting on TV and watched how my son was completely captivated, a story line came to me. I sat at my computer and for a few days, I wrote. Story lines just poured from my finger tips as I typed. They were good too, my kids loved them! More kid cartoon ideas came to me, one after another. And TV shows. It didn’t stop! And just like the book said, it never felt like work.
+\n          I just don’t know what to do with these ideas? They’ve been sitting around now for a year but I’m sure that will eventually come to me as well. I just have to figure out how to open my mind up to it.
+\n          In July I wrote, in detail, a life plan. I read it every day and give thanks. I give thanks for my time with my children and my new career. Every morning I imaging going to the best job I could ever want and managing my time with my kids. In the afternoon, I sit for a moment and feel so good about my career and family and every night I feel the joy of this job I love so much that I smile as I fall to sleep.
+\n          Thank you for all that has been given to me already and thank you in advance for more to come. Stay tuned folks…"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

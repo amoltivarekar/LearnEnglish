@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper19"
+    tools:context="com.example.amolt.learnenglish.GrammerTab1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:text="How to Express Age in English"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:typeface="serif"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today’s blog is going to focus on "
+            android:textSize="17dp"
+            android:paddingLeft="100dp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="something simple yet very important- how to express age in English."
+            android:textSize="17dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What are the most common mistakes ?"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#000033"
+            android:typeface="serif"
+            />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is not uncommon to hear non-native people make mistakes when communicating their ages in English."
+            android:textSize="17dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:textColor="#000033"
+            />
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Examples :\n       1) I have 26 years.\n       2) I am have 30 years."
+            android:textSize="17dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000033"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="            Both of these examples are INCORRECT. In English we do not use the verb “to have” when we are referring to ages (like in Latin languages), as this implies collecting numbers. On that note, we also don’t mix the verb to be with the verb to have- you will leave the interlocutor confused."
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is the correct way to express age ?"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#000033"
+                android:typeface="serif"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="            When talking about our ages, all we have to do is use the the verb “to be” + age. It really is that simple."
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Example : \n            1) I am 30.\n            2) He is 23.\n            3) They are 35."
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

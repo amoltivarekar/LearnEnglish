@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amolt.learnenglish.ReadingTab1Activity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Universal Miracle."
+                android:typeface="serif"
+                android:textSize="40dp"
+                android:textColor="@color/colorWhite"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/walking"
+                android:layout_weight="0.42"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          I had nothing, but when I learned The Secret and put it into my life and into practice, what I learned was how to walk. That’s when I saw that it really works.\n          Knowing and using the techniques I met the person I am now married to. I returned to my studies and was able to complete them. And due to that, I got my much dreamed about job, I managed to get clearance. I bought my car, and today I’m going anywhere I want. I bought my house, I get to travel up to two times a year to places with beautiful beaches. And so I go on living one day at a time, the wonderful life I have, and it keeps evolving more and more to better my ways and my heritage.
+ \n         I have positive thoughts throughout the day, and most importantly I feel what I really want or what I want to have and I am grateful for it. Your life will change as mine has changed. Anyone can, anywhere and at any time. Be happy.
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

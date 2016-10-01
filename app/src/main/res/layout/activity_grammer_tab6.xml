@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amolt.learnenglish.GrammerTab3Activity"
+    android:background="@drawable/wallpaper19"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:text="Acquisitive Future'"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:typeface="serif"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today’s blog is going to focus on "
+            android:textSize="17dp"
+            android:paddingLeft="100dp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acquisitive Future . To show something what you don't have right now but will have in Future . "
+            android:textSize="17dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="20dp"
+                    android:text=" I , We ,\n They , You\n He , She\n Name"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="50dp"
+                    android:text="+"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView"
+                    android:id="@+id/txtplus"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="25dp"
+                    android:text="'Will have /Won't have'"
+                    android:paddingBottom="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/txtplus" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I . Examples :\n      1) I will have a car.\n      2) I won't have a car .\n      3) Will I have a car ?\n      4) won't I have a car ?"
+                android:textSize="19dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II . Examples :\n      1) Raj will have time.\n      2) Raj won't have time.\n      3) Will Raj have time ?\n      4) won't Raj have time ?"
+                android:textSize="19dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_79f050497303947d0540091557ad8609c28a1786\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_ee4494cfae367045268cc4ae67533461cfef1430\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_afbc67ff1a94c6dbf2fddc557548554bdd969771\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_f81baf6fb912080cae1aece583d251d1e8902201\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="609ab40275f213b2ccdb8f9333afd3d840c20dbe">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_faf5f5b2aece844c655c5c295edc71ea46f4d943\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_8b6c55f05e6eb4892b821dad879303efdab98ead\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dc758e5ab937c6b0d51dbe186ab699104a5dc859">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_512bf581a624e7a2b30fa553aa03e45ee75d6043\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_dc749ecfdceeb3607b46ac85cee724d0a383d415\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_93bc2a0c6251e50392f884d875ad6c1a8ba2ab26\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\amolt\AndroidStudioProjects\LearnEnglish\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_b2721f4d290d05b74124e36400961a764cff2bff\classes.dex" />
+    </item>
+
+</items>

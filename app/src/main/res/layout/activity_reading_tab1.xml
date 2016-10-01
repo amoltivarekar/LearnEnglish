@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.amolt.learnenglish.ReadingTab1Activity"
+              android:weightSum="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                    android:text="OMG I Get it! I Understand Why This Works!"
+                    android:typeface="serif"
+                    android:textSize="40dp"
+                    android:textColor="@color/colorWhite"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageButton"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/wall"
+                    android:layout_weight="0.42"
+            />
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="          I am a person that always has to understand why things are. It is not enough to say a toaster works I have to know why they do so. I am a Christ follower and was struggling with the understanding of why it  is that what we think, materializes, and just because it does, is simply not good enough. Why, despite the worldview we have, does it happen anyway?"
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="          I meditated today for the first time and whamo! It came to me lie a flood! We don’t see ourselves for what we truly are. We have an outlook that we are frail humans with faults, no self control, frightened little children huddled in a dark corner just hoping we will not get consumed by the world but figure we will anyway. It’s a wonder that we can dress ourselves."
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="          The fact is we are beings of light and spirit that are enormously powerful. In fact scripture says that whatever we proclaim or bind on earth, is not only done so on earth but is done in heaven! We have this enormous power because it was given to us by our creator. In fact we even have the ability to literally move mountains if we would only accept what we really and truly are! Powerful spiritual beings of light! We should be happy, we should have abundance, we should have exactly what we want and we should be drop down, crazy, happy and excited in the process! My journey begins, I feel like scrooge after he woke up!"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank You."
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:typeface="serif"
+                    android:padding="10dp"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swap for Next Lesson."
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:typeface="serif"
+                    android:paddingBottom="10dp"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

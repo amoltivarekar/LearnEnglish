@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amolt.learnenglish.ReadingTab1Activity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="Success Takes Time But Surely Comes."
+                android:typeface="serif"
+                android:textSize="40dp"
+                android:textColor="@color/colorWhite"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/img7"
+                android:layout_weight="0.42"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="          I was good in studies always till my 12th class. After that I joined for the chartered accountancy course. I could not clear it in my first attempt and again, not in second attempt, either.\n          One of my friends, Ashish, told me about The Secret and I searched for it and watched the documentary. Then after, I started feeling the power of my imagination and the power of attraction. It really works!\n          I noted down all my desires, goals and dreams in my diary and whenever I found time I use to go through them. I am getting them, one by one, what I wanted to have.\n          I have cleared my exam, have my guitar, and all those books that I love to read. It is magical.\n          Now I can assure myself that whatever I want, I will either have, or I will have it soon. I always lend The Secret documentary to people.\n          The simple rule is to just imagine what you want, and not what you don’t want. Things will get set accordingly.\n          Thanks to Ashish for referring me to The Secret.\n          Best regards,\n          Jaya Mittal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

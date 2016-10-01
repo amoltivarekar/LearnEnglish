@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amolt.learnenglish.GrammerTab3Activity"
+    android:background="@drawable/wallpaper19"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:text="when we use  'Have to / Has to'"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:typeface="serif"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today’s blog is going to focus on "
+                android:textSize="17dp"
+                android:paddingLeft="100dp"
+                android:paddingRight="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="something simple yet very important- when we use ' Have to / Has to ' in English."
+                android:textSize="17dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                  You don't like or wish to perform or do still been Complleted. "
+                android:textSize="17dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="20dp"
+                    android:text=" I , We ,\n They , You"
+
+                    android:id="@+id/textView" /> He ,\n She , Name
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="50dp"
+                    android:text="+"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView"
+                    android:id="@+id/txtplus"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="25dp"
+                    android:text="'Have to/Don't have to'"
+                    android:paddingBottom="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/txtplus" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="20dp"
+                    android:text=" He , She ,\n Name"
+
+                    android:id="@+id/textView2" /> He ,\n She , Name
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="50dp"
+                    android:text="+"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView2"
+                    android:id="@+id/txtplus2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#000033"
+                    android:textSize="25dp"
+                    android:text="'Has to/Dosen't have to'"
+                    android:paddingBottom="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/txtplus2" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textColor="#000033"
+                android:textSize="17dp"
+                android:text="Tips : \n    Use Verb First Form .\n    all Subject / all Application ."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I . Examples :\n      1) I have to wake-up early morning.\n      2) I don't have to wake-up early morning.\n      3) Do I have to wake-up early morning ?\n      4) Don't I have to wake-up early morning ?"
+                android:textSize="19dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II . Examples :\n      1) Raj has to wake-up early morning.\n      2) Raj doesn't have to wake-up early morning.\n      3) Does I have to wake-up early morning ?\n      4) Does't Raj have to wake-up early morning ?"
+                android:textSize="19dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper19"
+    tools:context="com.example.amolt.learnenglish.GrammerTab2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:text="10 ways to say you don’t like something"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:typeface="serif"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              Imagine someone does something you do not like. Saying “I don’t like it” or “I don’t like this” can sound a little bit childish. So today we will learn a couple of ways to say “I don’t like it” more maturely. Ready?"
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. I dislike it "
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              The most similar way of saying “I don’t like it”. It can also seem very direct and could cause offense to some people."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I dislike the way he talks to me.\n2) Greta dislikes the taste of pistachio ice cream."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. I’m not into it "
+            android:textSize="23dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#000033"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              This sentence is more casual. Saying you are not into something means you do not find it interesting or attractive."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I’m not into skinny jeans this season.\n2) James asked Irina to go with him to the football game but she’s not into football, she likes rugby."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. I’m not fond of it"
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="“To be fond of” means having a liking for or love of something or someone. So, not to be fond of something means you don’t like it very much. It is also quite informal."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Since Ben had the accident, he’s not very fond of going skiing\n2) I’m not fond of combining purple with orange."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. I’m not crazy about it"
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This sentence is similar to the one above, “to not be fond of something”."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I don’t think Tanya is crazy about working extra hours\n2) Pauline, I’m not crazy about this cake, it tastes strange."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. I don’t appreciate that"
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This way of expressing dislike is great for professional and serious conversations, as well as for making polite requests. “To appreciate” means to be grateful for something, so what we are saying is “I am not grateful for this situation”. See? A lot more polite."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I don’t appreciate being shouted at in public.\n2) Helen did not appreciate her gift, she thought it was inappropriate."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. It doesn’t tickle my fancy."
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is an idiom and it means to amuse, entertain, or appeal to someone; to stimulate someone’s imagination in a good way. So when we say something did not tickle our fancy, it means we did not find it appealing, funny or interesting."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) That comedian’s sense of humour doesn’t tickle their fancy.\n2) I love that Halloween party concept but the idea of having blood everywhere doesn’t tickle my fancy, it’s a bit gross."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. I’m disinterested in that."
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We use this sentence if something simply does not interest us."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) My friends are all disinterested in politics.\n2) Her boss is disinterested in all her ideas."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. That’s not for me."
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A neutral way of explaining that something does not appeal to you, that you are not interested."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Everyone loves the series Lost but it’s not for me.\n2) The new fashion trend of high-wasted skirts is not for me"
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. I’m not a big fan of it"
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="“To be a fan of something” is an expression lots of people use and most people understand. But to say “I’m not a big fan” is not as common. Of course, it means we do not like something very much."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I’m not a big fan of the new James Bond.\n2) Don’t ask her to go to the Japonese restaurant! She’s not a fan of sushi."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. I’ll pass."
+                android:textSize="23dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#000033"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is a quick way of saying we are not interested in a suggestion."
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:typeface="serif"
+                android:textColor="#000033"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples :"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Do you want to come to the pub?” “Nah, thanks, I’ll pass.\n2) Who wants to participate in this project?” “I have too much work right now, I’ll pass, thanks."
+                android:textSize="17dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000033"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank You."
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap for Next Lesson."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:typeface="serif"
+                android:paddingBottom="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
